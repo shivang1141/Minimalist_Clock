@@ -1,0 +1,7 @@
+Minimalist Animated Clock with Date and Day
+    This is a minimalist animated clock with date and day that displays the time, date, and day of the week. It also includes a toggle button that allows users to switch between 12-hour and 24-hour time formats, as well as a dark mode toggle button.
+
+Features
+    Displays the current time, date, and day of the week.
+    Allows users to switch between 12-hour and 24-hour time formats.
+    Includes a dark mode toggle button.

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalist Animated Clock with Date and Day</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="clock">
+      <div class="clock__toggle-dark-mode">
+      <input type="checkbox" id="dark-mode-switch" class="toggle-dark-mode-switch">
+      <label for="dark-mode-switch" class="toggle-dark-mode-label"></label>
+    </div>
+    
+    
+    <div class="clock__time">
+      <span class="clock__hours">00</span>
+      <span class="clock__divider">:</span>
+      <span class="clock__minutes">00</span>
+      <span class="clock__divider">:</span>
+      <span class="clock__seconds">00</span>
+      <span class="clock__ampm"></span>
+    </div>
+    <div class="clock__date">
+      <span class="clock__month">MM</span>
+      <span class="clock__divider">/</span>
+      <span class="clock__day">DD</span>
+      <span class="clock__divider">/</span>
+      <span class="clock__year">YYYY</span>
+    </div>
+    <div class="clock__day-of-week">Day</div>
+    <button class="clock__toggle">Toggle 12/24</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
